@@ -1,0 +1,2 @@
+# StorageDriver_Docker
+The storage drivers like AUFS, VFS, BTRFS, OverlayFS and DeviceMapper were configured on Ubuntu 14.04,  a container with an Ubuntu image was created and the performance benchmarks were captured using the IOZone tool. The tests were performed for 13 operations with varying record lengths and file sizes. The tests were captured across all the above mentioned storage drivers. Performance analysis  provided a comparison between the storage drivers that were used.
